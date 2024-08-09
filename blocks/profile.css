@@ -1,0 +1,103 @@
+/* Profile section begins */
+.profile {
+  display: flex;
+  align-items: center;
+  padding-top: 40px; /* I don't understand where the 40 px cam from */
+}
+
+.profile__info {
+  display: grid;
+  grid-template-areas:
+    "title button"
+    "description description";
+  /*grid-template-columns: minmax(auto, 373px) auto;*/
+}
+
+.profile__title {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  grid-area: title;
+  margin: 0;
+}
+
+.profile__description {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 22px;
+  grid-area: description;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.profile__edit-button {
+  background: transparent url(../images/Edit\ Button.svg) center no-repeat;
+  height: 24px;
+  width: 24px;
+  grid-area: button;
+  position: relative;
+  top: 16px;
+  left: 20px;
+}
+
+.profile__add-button {
+  background: transparent url(../images/Add\ Button.svg) center no-repeat;
+  height: 50px;
+  width: 150px;
+  /*margin-left: 200px; plus sign in profile figuring out how to space them properly.
+    position: relative; */
+  margin-left: auto;
+}
+
+.profile__image {
+  height: 120px;
+  width: 120px;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .profile__image {
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 24px;
+    margin-left: 0%;
+  }
+
+  .profile__title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 95%;
+    border-radius: 2px 0px 0px 0px;
+    position: relative;
+    top: 25px;
+    margin-bottom: 20px;
+  }
+}
