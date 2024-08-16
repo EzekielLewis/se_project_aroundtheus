@@ -2,34 +2,6 @@
 @import url("../vendor/fonts.css");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
-@import url("../blocks/content.css");
 @import url("../blocks/profile.css");
 @import url("../blocks/cards.css");
-@import url("../blocks/card.css");
 @import url("../blocks/footer.css");
-
-@media screen and (max-width: 480px) {
-  .profile {
-    flex-direction: column;
-  }
-
-  .profile__info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .profile__description {
-    width: 100%;
-    text-align: center;
-  }
-
-  .profile__add-button {
-    margin: 0;
-    width: 95%;
-    border-radius: 2px 0px 0px 0px;
-    position: relative;
-    top: 25px;
-  }
-}
