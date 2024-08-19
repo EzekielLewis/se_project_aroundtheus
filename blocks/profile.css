@@ -2,7 +2,7 @@
 .profile {
   display: flex;
   align-items: center;
-  padding-top: 40px; /* I don't understand where the 40 px cam from */
+  padding-top: 40px;
 }
 
 .profile__info {
