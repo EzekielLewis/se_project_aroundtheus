@@ -1,4 +1,16 @@
 .header {
   margin-top: 45px;
   height: 74px;
+  border-bottom: 1px solid #545454;
+}
+
+@media screen and (max-width: 327px) {
+  .header {
+    margin-top: 10px;
+  }
+  .aroung_the_us_header {
+    width: 130px;
+    margin-left: 27px;
+    margin-top: 5%;
+  }
 }
