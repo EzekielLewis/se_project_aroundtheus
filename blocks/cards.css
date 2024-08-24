@@ -1,15 +1,5 @@
 /* Card section begins */
-
-.card__list {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 282px);
-  grid-gap: 20px 17px;
-  padding: 0;
-  margin: 0;
-}
-
-.card {
+.cards {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -17,39 +7,13 @@
   margin-bottom: -25px;
 }
 
-.card__image {
-  width: 282px;
-  height: 282px;
-  border-radius: 10px 10px 0 0;
-}
-
-.card__title {
-  margin: 20px;
-  max-width: 220px;
-  font-size: 24px;
-  font-weight: 980;
-  line-height: 29px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.card__description {
-  display: flex;
-  background-color: white;
-  color: black;
-  padding: 2px 20px 2px 0px;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 25px;
-  border-radius: 0px 0 10px 10px;
-}
-
-.card__like-button {
-  background: transparent url(../images/Vector.svg) center no-repeat;
-  width: 21px;
-  height: 18px;
-  border: none;
+.cards__list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 327px) {

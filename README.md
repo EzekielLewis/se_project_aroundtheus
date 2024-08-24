@@ -4,7 +4,9 @@
 
 ## It was created using HTML & CSS followed a Figma image.
 
-### Overview
+### Here is a video Overview of my project so
+
+far (https://drive.google.com/file/d/18BdiHQURX87QSeFKBsMlAE35Q9hoI_27/view?usp=drive_link) for a visual.
 
 - Intro
 - Figma
