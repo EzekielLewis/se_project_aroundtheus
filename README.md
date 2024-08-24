@@ -1,13 +1,5 @@
 # Project 3: Around The U.S.
 
-## This project is designed to explore the US and it has been enabled to add and edit images. This is the third project in the Triple Ten web development program.
-
-## It was created using HTML & CSS followed a Figma image.
-
-### Here is a video Overview of my project so
-
-far (https://drive.google.com/file/d/18BdiHQURX87QSeFKBsMlAE35Q9hoI_27/view?usp=drive_link) for a visual.
-
 - Intro
 - Figma
 - Images
@@ -15,6 +7,12 @@ far (https://drive.google.com/file/d/18BdiHQURX87QSeFKBsMlAE35Q9hoI_27/view?usp=
 **Intro**
 
 This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+
+This project is designed to explore the US and it has been enabled to add and edit images. This is the third project in the Triple Ten web development program.
+
+It was created using HTML & CSS followed a Figma image.
+
+Here is a video overview of my project so far (https://drive.google.com/file/d/18BdiHQURX87QSeFKBsMlAE35Q9hoI_27/view?usp=drive_link)
 
 **Figma**
 
