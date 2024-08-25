@@ -8,10 +8,18 @@
   margin: 55px 20px 40px;
 }
 
+.footer__paragraph {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 327px) {
   .footer {
     font-size: 14px;
     margin-right: 18px;
     line-height: 16.94px;
+    margin: 25px 20px 40px;
   }
 }
