@@ -2,7 +2,7 @@
 
 ### This project is designed to explore the US and it has been enabled to add and edit images. This is the third project in the Triple Ten web development program. It was created using HTML & CSS followed a Figma layout. We used and followed teh BEM format when designing the website.
 
-###
+### Here is a link to the project via Github pages https://ezekiellewis.github.io/se_project_aroundtheus/
 
 - Intro
 - Figma
