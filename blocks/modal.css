@@ -44,14 +44,12 @@
 .modal__heading {
     width: 330px;
     height: 23px;
-/*     padding: 34px 64px, 273px, 36px  ; */
     top: 229px;
     left: 461px;
     font-family: "Inter" sans-serif;
     font-weight: 900;
     font-size: 24px;
     line-height: 100%;
-    letter-spacing: 0%;
 }
 
 .modal__form input[name= "title"] {
@@ -62,12 +60,10 @@
     height: 14px;
     padding-top: 36px;
     position: relative;
-    font-family: "Inter" sans-serif;
+    font-family: Inter , sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
-    letter-spacing: 0%;
-
 }
 
 .modal__form input[name= "description"] {
@@ -82,8 +78,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
-    letter-spacing: 0%;
-
 }
 
 .modal__line {
@@ -130,11 +124,6 @@
 
     .modal__button {
         max-width: 100%;
-        padding-right: 50px;
         border-radius: 2px;
-    }
-
-    .save__button{
-        padding-left: 50px;
     }
 }
