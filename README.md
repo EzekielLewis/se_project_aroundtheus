@@ -21,3 +21,9 @@ Here is a video overview of my project so far (https://drive.google.com/file/d/1
 **Images**
 
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+
+# Project 4: Around The U.S. se_project_aroundtheus
+
+### This project is designed to be more interactive with the webpage. For example we are now able to edit the modal so that a user can input a name and description as well. We are now able to connect with javascript such as with the card elements not being hard coded in the html code. 
+
+
