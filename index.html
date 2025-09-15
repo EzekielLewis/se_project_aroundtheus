@@ -36,7 +36,7 @@
             <!-- Cards will be added here dynamically -->
           </ul>
         </section>
-      </main> 
+      </main>
       <footer class="footer">
         <p class="footer__paragraph">&copy; 2024 Around The U.S.</p>
       </footer>
@@ -47,28 +47,36 @@
         <button type="button" class="modal__close"></button>
         <p class="modal__heading">Edit Profile</p>
         <form class="modal__form">
-          <input type="text" name="title" placeholder="Name" id="profile-title-input" /> 
-          <img src="./images/Line2.svg" alt="line" class="modal__line" />
-          <input type="text" name="description" placeholder="Description" id="profile-desciption-input" />
-          <img src="./images/Line2.svg" alt="line" class="modal__line" />
-          <button type="submit" class="modal__button" >Save</button>
+          <input
+            type="text"
+            name="title"
+            placeholder="Name"
+            class="modal__form-title"
+            id="profile-title-input"
+          />
+          <div class="modal__line"></div>
+          <input
+            type="text"
+            name="description"
+            placeholder="Description"
+            class="modal__form_description"
+            id="profile-description-input"
+          />
+          <div alt="modal__description_line" class="modal__line"></div>
+          <button type="submit" class="modal__button">Save</button>
         </form>
       </div>
     </div>
 
-<template id="card-template">
-<li class="card">
-              <img
-                src= ""
-                alt=""
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title"></h2>
-                <button class="card__like-button"></button>
-              </div>
-</li>
-</template>
+    <template id="card-template">
+      <li class="card">
+        <img src="" alt="" class="card__image" />
+        <div class="card__description">
+          <h2 class="card__title"></h2>
+          <button type="button" class="card__like-button"></button>
+        </div>
+      </li>
+    </template>
 
     <script src="./scripts/index.js"></script>
   </body>
