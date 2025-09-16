@@ -1,127 +1,114 @@
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .5);
-    right: 0;
-    bottom: 0;
-    z-index: 333;   
-    padding: 0 19px;
-    display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 0;
+  bottom: 0;
+  z-index: 333;
+  padding: 0 19px;
+  display: none;
 }
 
 .modal__opened {
-    display: flex;
+  display: flex;
 }
 
 .modal__container {
-    background-color: #fff;
-    margin: 195px auto 0;
-    padding: 36px;
-    color: #000;
-    position: relative;
-    width: 430px;
-    height: 330px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    border-radius: 10px;
+  background-color: #fff;
+  margin: 195px auto 0;
+  padding: 36px;
+  color: #000;
+  position: relative;
+  width: 430px;
+  height: 330px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
 }
 
 .modal__close {
-    background-image: url(../images/Close_icon.svg);
-    background-color: transparent;
-    border: none;
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    bottom: calc(100% + 5px);
-    left: calc(100% + 5px);
-    cursor: pointer;
+  background-image: url(../images/Close_icon.svg);
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: calc(100% + 5px);
+  cursor: pointer;
 }
 
 .modal__heading {
-    width: 330px;
-    height: 23px;
-    top: 229px;
-    left: 461px;
-    font-family: "Inter" , sans-serif;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 100%;
+  width: 330px;
+  height: 23px;
+  top: 229px;
+  left: 461px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
 }
 
-.modal__form-title  {
-    width: 100%;
-    display: flex;
-    border: none; 
-    cursor: pointer;
-    height: 14px;
-    padding-top: 36px;
-    position: relative;
-    font-family: "Inter" , sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 100%;
-}
-
-.modal__form .modal__form_description  {
-    width: 100%;
-    display: flex;
-    border: 1px solid #fff;
-    cursor: pointer;
-    height: 14px;
-    padding-top: 36px;
-    position: relative;
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 100%;
+.modal__input {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  height: 14px;
+  padding-top: 36px;
+  padding-bottom: 15px;
+  position: relative;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
 }
 
 .modal__line {
-    width: 100%;
-    margin-top: 15px;
-    border-bottom: 1px solid #D3D3D3;
-    border-width: 1px;
+  width: 100%;
+  margin-top: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-width: 1px;
 }
 
 .modal__button {
-    width: 100%;
-    margin-top: 38px;
-    height: 57.15px;
-    background-color: #000;
-    color: #fff;
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    display: flex
-;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
+  width: 100%;
+  margin-top: 38px;
+  height: 57.15px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 640px) {
-    .modal__container {
-        width: 282px;
-        height: 322px;
-        padding: 20px;
-        border-radius: 10px;
-    }
+  .modal__container {
+    width: 282px;
+    height: 322px;
+    padding: 20px;
+    border-radius: 10px;
+  }
 
-    .modal__close {
-        width: 26px;
-        height: 26px;
-        bottom: calc(100% + 24.62px);
-        left: calc(100% + -24.62px);
+  .modal__close {
+    width: 26px;
+    height: 26px;
+    bottom: calc(100% + 24.62px);
+    left: calc(100% + -24.62px);
+  }
 
-    }
-
-    .modal__button {
-        max-width: 100%;
-        border-radius: 2px;
-    }
+  .modal__button {
+    max-width: 100%;
+    border-radius: 2px;
+  }
 }
