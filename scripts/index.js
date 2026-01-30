@@ -50,7 +50,7 @@ const addCardModalCloseButton = addCardModal.querySelector(".modal__close");
 const profileTitle = document.querySelector(".profile__title");
 const profileDescription = document.querySelector(".profile__description");
 const addNewCardButton = document.querySelector(".profile__add-button");
-const likeButton = document.querySelectorAll('card__like-button');
+
 
 //Form data
 const nameInput = profileFormElement.querySelector(".modal__input_type_name");
@@ -146,6 +146,12 @@ addCardModalCloseButton.addEventListener("click", () => closeModal(addCardModal)
 
 initialCards.forEach((cardData) => renderCard(cardData, cardsWrap));
 
+const likeButtons = document.querySelectorAll('.card__like-button');
+likeButtons.forEach((likeButton) => { likeButton.addEventListener
+("click", () => {
+  likeButton.classList.toggle('card__like-button_active');
+});
+});
 
 
 

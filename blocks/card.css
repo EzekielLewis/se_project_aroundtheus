@@ -34,17 +34,26 @@
 }
 
 .card__like-button {
-  background: transparent url(../images/Vector.svg) center no-repeat;
-  width: 21px;
-  height: 18px;
+  background: transparent url("../images/Vector.svg") center no-repeat;
+  width: 25px;
+  height: 19px;
+  /* later */
   border: none;
   cursor: pointer;
+  background-size: 21px 18px;
+  margin: 0;
+}
+
+.card__like-button_active {
+  background-image: url("../images/like-active.svg");
 }
 
 .card__like-button:hover {
   opacity: 50%;
   transition: 0.3s;
 }
+
+
 
 @media screen and (max-width: 327px) {
   .card {
