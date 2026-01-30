@@ -10,11 +10,11 @@
   display: none;
 }
 
-.modal__opened {
+.modal_is-opened {
   display: flex;
 }
 
-.modal__container {
+.modal__content {
   background-color: #fff;
   margin: 195px auto 0;
   padding: 36px;
