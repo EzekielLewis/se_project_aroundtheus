@@ -146,12 +146,24 @@ addCardModalCloseButton.addEventListener("click", () => closeModal(addCardModal)
 
 initialCards.forEach((cardData) => renderCard(cardData, cardsWrap));
 
+//Heart Icon Toggle
 const likeButtons = document.querySelectorAll('.card__like-button');
 likeButtons.forEach((likeButton) => { likeButton.addEventListener
 ("click", () => {
   likeButton.classList.toggle('card__like-button_active');
 });
 });
+
+//Trash Icon Delete Card
+const trashButtons = document.querySelectorAll('.card__delete-button');
+trashButtons.forEach((trashButton) => { trashButton.addEventListener
+("click", () => {
+  trashButton.closest('.card').remove();
+});
+});
+
+
+
 
 
 

@@ -41,6 +41,11 @@
   cursor: pointer;
 }
 
+.modal__close:hover {
+  opacity: 60%;
+  transition: 0.3s;
+}
+
 .modal__heading {
   width: 330px;
   height: 23px;
